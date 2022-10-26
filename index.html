@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js Assesment 1</title>
+</head>
+
+<body>
+    Q. You are provided with two numbers
+    A
+    and
+    B
+    . Your task is to add these two numbers.
+
+    Ans:- const AddTwoNumbers = (a,b) => {
+    return (a+b);
+    };
+
+    Q. You are given two number first as A and second as B and check if both conditions (A<10 and A>B ) are satisfied or
+        not with the help of operators.
+
+        Ans:- const AddTwoNumbers = (a,b) => {
+        return (a<10 ) && (a>b) ? true:false
+            };
+
+            Q. You are given two numbers
+            A
+            and
+            B
+            . You need to do the following checks:
+
+            if both are divisible by 10 console true.
+            if both are not divisible by 10 console false.
+            if one of them only is divisible by 10 console true.
+            Use operator to do this.
+
+            Ans: const AddTwoNumbers = (A,B) => {
+
+            if(A%10 == 0 && B%10 == 0){
+            return false;
+            }
+            else if( A%10 != 10 && B%10 !=10){
+            return true;
+            }
+            else{
+            return true;
+            }
+            };
+
+            Q>You are provided a four digit number N only. Your task is to print out the first digit of that number.
+            Ans:- const First_Digit = (n) => {
+            while (n >= 10)
+            n /= 10;
+            return Math.floor(n);
+            };
+
+
+            Q. You are provided a four digit number N only. Your task is to print out the last digit of that number.
+            Ans:- const Last_Digit = (n) => {
+
+            return Math.floor(n%10);
+            };
+
+            Q. You are provided with two numbers
+            A
+            and
+            B
+            where
+            A
+            as divisor and
+            B
+            as dividend.Your task is find the remainder.
+
+            Ans :const Find_the_remainder = (a,b) => {
+            return b%a;
+            };
+
+
+            Q. You are provided with two numbers
+            A
+            and
+            B
+            . Your task is to multiply these two numbers.
+            Ans :- const Multiply_two_number = (a,b) => {
+            return a*b;
+            };
+
+
+        Q. Shyam has got his marks in three subjects as 
+        A
+        , 
+        B
+        , and 
+        C
+         (out of 100).Write a program to calculate his total marks and his average.
+
+         Ans:---const Sum = (A, B, C) => 
+         {
+          return A+B+C;
+         };
+         
+         const Average = (A, B, C) => 
+         {
+          return (A+B+C)/3;
+         };
+
+         Q> You are given two numbers 
+         A
+          and 
+         B
+         . You need to do the following checks:
+         
+         if both are divisible by 10 console true.
+         if both are not divisible by 10 console false.
+         if one of them only is divisible by 10 console true.
+         Use operator to do this.
+
+         Ans:-----const Check = (A, B) => 
+         {
+            if(A%10 ===0 && B%10 === 0){
+              return true;
+            }
+            else if(A%10 !== 0 && B%10 !==0 ){
+              return false;
+            }
+            else{
+              return true;
+            }
+         };
+         
+
+</body>
+
+</html>
